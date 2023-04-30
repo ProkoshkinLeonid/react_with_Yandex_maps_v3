@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://api-maps.yandex.ru/3.0/?apikey=7dbb5cf1-89bf-46c9-990f-dec62d560c2d&lang=ru_RU"></script>
+    <title>Yandex Maps</title>
+  </head>
+  <script>
+    ymaps3.ready.then(() => {
+      const {YMaps} = ymaps3;
+      new YMaps({});
+    });
+  </script>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

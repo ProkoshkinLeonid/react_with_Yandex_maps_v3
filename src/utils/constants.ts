@@ -1,0 +1,1 @@
+export const YANDEX_MAP_API_KEY = '7dbb5cf1-89bf-46c9-990f-dec62d560c2d'
